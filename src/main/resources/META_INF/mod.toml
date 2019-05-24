@@ -1,0 +1,20 @@
+modLoader="javafml" #mandatory
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+loaderVersion="[25,)" #mandatory (24 is current forge version)
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+# The modid of the mod
+modId="modcraft" #mandatory
+# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
+version="0.0.1" #mandatory
+ # A display name for the mod
+displayName="The Minecraft Mod" #mandatory
+# A file name (in the root of the mod JAR) containing a logo for display
+# A text field displayed in the mod UI
+credits="worms are added" #optional
+# A text field displayed in the mod UI
+authors="by jasper" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+womr
+'''
